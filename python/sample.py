@@ -25,7 +25,7 @@ class IsOddTests(unittest.TestCase):
         self.failIf(IsOdd(2))
 
     def testThree(self):
-        self.failIf(IsEven(1))
+        self.failIf(IsEven(2))
 
     def testFour(self):
         self.failUnless(my_partial_fn(1));
